@@ -1,0 +1,13 @@
+bin/
+obj/
+publish/
+test-results/
+test-data/
+*chrome*profile*/
+.vs/
+.env
+.env.*
+*.log
+*.user
+*.zip
+settings.json

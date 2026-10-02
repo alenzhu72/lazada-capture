@@ -1,0 +1,54 @@
+PASS Lazada links allowed
+PASS Lookalike domains and non-HTTPS rejected
+PASS Product and SKU key
+PASS Checkout total including shipping
+PASS Over budget rejected
+PASS Missing budget rejected
+PASS No product restriction
+PASS Budget defaults off
+PASS Multiple quantity allowed
+PASS Multiple items allowed
+PASS Duplicate total rejected
+PASS Subtotal alone is not total
+PASS Quantity label not required
+PASS SGD formatted total
+14 tests passed. No live purchases performed.
+
+PASS Out-of-stock rejected
+PASS Disabled Buy rejected
+PASS Available Buy detected
+PASS Product title
+PASS Ambiguous Buy rejected
+PASS Buy to checkout with <input value='1'>
+PASS Buy to checkout with <input value='3'>
+PASS Buy to checkout with <span>Qty: 2</span>
+PASS Rehearsal has not submitted
+PASS Order clicked once
+PASS Disabled Place rejected
+PASS Cancellation
+PASS ARIA disabled rejected
+PASS Hidden duplicate and empty aria-label do not hide available button
+PASS Nested text and whitespace
+PASS API positive signal with no buy button
+PASS API other SKU ignored
+PASS Stale API signal ignored
+PASS API zero does not trigger
+PASS Malformed API response diagnosed
+PASS 250ms transient stock detected
+PASS Two visible buttons still rejected
+PASS Fetch and XHR passive capture installed before page scripts
+Installed Chrome; local synthetic pages only. No live purchases.
+
+PASS Captured request template matches SKU
+PASS One in-flight request
+PASS Zero inventory and delay after response
+PASS Positive inventory stops further queries
+PASS Cancelled response ignored
+PASS Verification failure pauses
+PASS SKU switch refuses old template
+PASS Non Lazada domain rejected
+PASS Missing SDK reports unavailable and stops
+PASS Verification page stops before request
+10 active-query mock tests passed. Not a live API validation.
+
+真实页面检查：停在网站验证页；未捕获详情模板，未成功执行主动查询。未购买。
